@@ -1,6 +1,8 @@
 <html>
   <head>
-    <title>Simple Map</title>
+    <title>Track Saplings</title>
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
@@ -8,17 +10,10 @@
   </head>
   <body>
     <div id="mapCanvas"></div>
-
-    <!-- 
-     The `defer` attribute causes the callback to execute after the full HTML
-     document has been parsed. For non-blocking uses, avoiding race conditions,
-     and consistent behavior across browsers, consider loading using Promises
-     with https://www.npmjs.com/package/@googlemaps/js-api-loader.
-    -->
+    
     <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIWq-1y4uf8yZJthg3bDWw8IDhc_99D3o&map_ids=b51898b863329aa9&callback=initMap"
     defer
     ></script>
   </body>
 </html>
-<!-- AIzaSyDToBtRbXtMC8kQoRgOUCH-T2pQLvCsNwQ -->
