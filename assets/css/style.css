@@ -7,7 +7,7 @@
  * that contains the map. 
  */
  #mapCanvas {
-    height: 80vh;
+    height: 88vh;
     margin: 5vh;
     border-color: hsl(152deg 54% 65%);;
     border-style: groove;
